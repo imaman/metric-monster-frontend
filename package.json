@@ -1,0 +1,41 @@
+{
+  "name": "metric-monster-frontend",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imaman/metric-monster-frontend.git"
+  },
+  "keywords": [],
+  "author": "Itay Maman",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.413.0",
+    "chart.js": "^2.7.3",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "ms": "^2.1.1",
+    "vue": "^2.6.8",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.1",
+    "@vue/cli-plugin-e2e-cypress": "^3.4.1",
+    "@vue/cli-plugin-eslint": "^3.4.1",
+    "@vue/cli-plugin-unit-mocha": "^3.4.1",
+    "@vue/cli-service": "^3.4.1",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.15.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "vue-template-compiler": "^2.6.8"
+  }
+}
